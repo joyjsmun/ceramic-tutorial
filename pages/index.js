@@ -81,7 +81,7 @@ export default function Home() {
   return (
    <div className={styles.main}>
      <div className={styles.navbar} >
-       <span className={styles.title}Ceramic Demo></span>
+       <span className={styles.title}>Ceramic Demo</span>
        {connection.status === "connected" ? (
          <span className={styles.subtitle}>Connected</span>
        ): (
